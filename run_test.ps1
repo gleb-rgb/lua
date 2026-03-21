@@ -35,7 +35,7 @@ if ($selected) {
     
     if ($hiddenTag) {
         Write-Host "Выбрано: $selected" -ForegroundColor Cyan
-        Write-Host "Скрытый маячок найден: $hiddenTag" -ForegroundColor Magenta
+        Write-Host "Маячок найден: $hiddenTag" -ForegroundColor Magenta
         Write-Host "Запуск...`n" -ForegroundColor Green
         
         chcp 65001 > $null

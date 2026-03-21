@@ -1,0 +1,19 @@
+{
+    "actionButtons": {
+        "defaultColor": "#56eb34",
+        "commands": [
+            {
+                "name": "🚀 ВСЕ ТЕСТЫ",
+                "color": "#ffffff",
+                "singleInstance": true,
+                "command": "chcp 65001 >$null ; busted anonymizer_spec.lua"
+            },
+            {
+                "name": "🎯 ОДИН ТЕСТ",
+                "color": "#ffaa00",
+                "singleInstance": true,
+                "command": "powershell -ExecutionPolicy Bypass -File .\\run_test.ps1"
+            }
+        ]
+    }
+}
