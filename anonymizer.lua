@@ -199,7 +199,6 @@ function RunSanitizer()
     }
 end
 
--- Запускаем макрос автоматически ТОЛЬКО если это не режим тестирования
 if not _G.IS_TEST_ENV then
     RunSanitizer()
 end
