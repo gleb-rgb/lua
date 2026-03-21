@@ -10,7 +10,7 @@
             },
             {
                 "name": "🎯 ОДИН ТЕСТ",
-                "color": "#ffaa00",
+                "color": "#ffffff",
                 "singleInstance": true,
                 "command": "powershell -ExecutionPolicy Bypass -File .\\run_test.ps1"
             }
